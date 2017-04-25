@@ -25,6 +25,6 @@ window.addEventListener("scroll", function(){
    }
    if (currentScroll > 1600) {
      document.getElementById("contact").classList.remove("opacity");
-   }console.log(currentScroll);
+   }
    lastScrollTop = currentScroll;
 }, false);

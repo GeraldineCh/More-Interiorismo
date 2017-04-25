@@ -30,18 +30,3 @@ function uploadModal(path, id) {
 for (var i = 0; i < draggableDiv.length; i++) {
   uploadModal(images[i].src, i);
 }
-
-
-/*
-var mosaico = document.getElementsByClassName("mosaico");
-for (var i = 0; i < (draggableDiv.length/4)+1; i++) {
-
-  var parentTop = document.createElement("div");
-  parentTop.classList.add("parent-top");
-  mosaico.appendChild(parentTop)
-  var img
-  var parent = draggableDiv[i];
-  console.log(parent);
-  parent.setAttribute("src", images[i].src);
-}
-*/

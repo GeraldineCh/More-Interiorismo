@@ -6,11 +6,40 @@
 .opacity {
   opacity: 0;
 }
-
+/*modal*/
 .hidden {
   visibility: hidden;
 }
 
+.show-modal {
+    visibility: visible;
+    opacity: 1;
+}
+
+.show {
+    display: block;
+}
+
+.modal-img {
+    display: none;
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(62,207,158,0.8);
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:0;
+  z-index: 900;
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  transition:all 1s;
+}
+/*header*/
 header {
   position: absolute;
   top: 50px;
