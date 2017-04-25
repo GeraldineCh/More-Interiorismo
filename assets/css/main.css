@@ -12,8 +12,8 @@ header {
 
 .nav-bar a {
   text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
   color: #fff;
-  font-family: 'Lato', sans-serif;
   padding: 12px;
   background: linear-gradient(to left, white, white) no-repeat 0 0;
   background-size: 0% 2px;
@@ -48,10 +48,12 @@ header {
 
 .white:hover {
   background-image: url("../img/logo/logo-all-white.svg");
+  transition: none;
 }
 
 .black:hover {
   background-image: url("../img/logo/logo-all-black.svg");
+  transition: none;
 }
 
 video {
@@ -59,6 +61,8 @@ video {
   height: auto;
   margin-bottom: -5px;
 }
+
+
 
 #about, #contact, #gallery {
   width: 100%;
