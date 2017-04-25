@@ -14,6 +14,24 @@ for (var i = 0; i < draggableDiv.length; i++) {
   var parent = draggableDiv[i];
   parent.setAttribute("src", images[i].src);
 }
+
+function uploadModal(path, id) {
+  var docFragment = document.createDocumentFragment();
+  var modalContent = document.getElementsByClassName("modal-content")[0];
+  var img = document.createElement("img");
+  img.setAttribute("src", path);
+  img.classList.add("modal-img");
+  img.setAttribute("id", "img"+ id +"-modal");
+  docFragment.appendChild(img);
+
+  modalContent.appendChild(docFragment);
+}
+
+for (var i = 0; i < draggableDiv.length; i++) {
+  uploadModal(images[i].src, i);
+}
+
+
 /*
 var mosaico = document.getElementsByClassName("mosaico");
 for (var i = 0; i < (draggableDiv.length/4)+1; i++) {
