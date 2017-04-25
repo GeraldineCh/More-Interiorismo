@@ -94,17 +94,26 @@ video {
 }
 
 .draggable-div {
-  background-color: red;
   margin-left: 4px;
   margin-right: -4px;
   width: 213px;
   height: 213px;
   display: inline-block;
   overflow: hidden;
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.draggable-div:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
 }
 
 .drop-div {
-  background-color: blue;
+  background-color: #fff;
   margin-left: 4px;
   margin-right: -4px;
   width: 213px;
@@ -112,6 +121,8 @@ video {
   display: inline-block;
   position: absolute;
   right: 0;
+  border: none;
+  overflow: hidden;
 }
 
 .parent-top, .parent-middle, .bottom-parent {
