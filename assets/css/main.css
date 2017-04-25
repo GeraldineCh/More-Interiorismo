@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+.opacity {
+  opacity: 0;
+}
+
 header {
   position: absolute;
   top: 50px;
@@ -64,7 +68,7 @@ video {
 
 
 
-#about, #contact, #gallery {
+#about, #contact {
   width: 100%;
   height: 638px;
 }
@@ -80,10 +84,65 @@ video {
 }
 
 #gallery {
-  background-color: #fff;
+  background-image: url("../img/grilla.png");
   transition: 1s;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
 }
 
-.opacity {
-  opacity: 0;
+.draggable-div {
+  background-color: red;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
 }
+
+.drop-div {
+  background-color: blue;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.parent-top, .parent-middle, .bottom-parent {
+  width: 100%;
+  height: 200px;
+  margin: 5px;
+}
+
+
+/*        <div class="parent-top">
+          <div id="1" class="draggable-div" ondragstart="drag(event)"></div>
+          <div id="2" class="draggable-div"></div>
+          <div id="3" class="draggable-div"></div>
+        </div>
+        <div class="parent-bottom">
+          <div class="parent-left">
+            <div id="4" class="draggable-div"></div>
+            <div id="5" class="draggable-div"></div>
+          </div>
+          <div class="parent-center">
+            <div id="6" class="draggable-div" ></div>
+            <div id="drop-div" class="drop-div"></div>
+          </div>
+          <div class="parent-right">
+            <div id="8" class="draggable-div"></div>
+            <div id="9" class="draggable-div"></div>
+          </div>
+        </div>
+
+
+
+        <!-->
+        <div id="div1" class="drop-div" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <br>
+        <div id="drag1" class="draggable-div" ondragstart="drag(event)" width="336" height="69"></div>
+        <div class="">
+          <div id="drag2" class="draggable-div" ondragstart="drag(event)" width="336" height="69"></div>
+          <div id="drag3" class="draggable-div" ondragstart="drag(event)" width="336" height="69"></div>
+        </div>
+<!-->
+*/

@@ -19,5 +19,4 @@ window.addEventListener("scroll", function(){
      document.getElementsByClassName("logo")[0].classList.add("white");
    }
    lastScrollTop = currentScroll;
-   console.log(window.pageYOffset);
 }, false);
