@@ -4,7 +4,7 @@ window.addEventListener("scroll", function(){
    if (currentScroll > lastScrollTop){
      document.getElementById("about").classList.remove("opacity");
    }
-   if (currentScroll > 800) {
+   if (currentScroll > 900) {
      document.getElementById("gallery").classList.remove("opacity");
    }
    if (currentScroll > 1500) {
