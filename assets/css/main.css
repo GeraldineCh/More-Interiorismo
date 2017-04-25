@@ -34,6 +34,8 @@ header {
   top: 50px;
   left: 50px;
   transition: 0.3s;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .white {
@@ -42,16 +44,6 @@ header {
 
 .black {
   background-image: url("../img/logo/logo-black.svg");
-}
-
-.white, .black {
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.white:hover, .black:hover {
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .white:hover {
