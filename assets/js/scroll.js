@@ -4,7 +4,7 @@ window.addEventListener("scroll", function(){
    if (currentScroll > lastScrollTop){
      document.getElementById("about").classList.remove("opacity");
    }
-   if (currentScroll > 900) {
+   if (currentScroll > 800) {
      document.getElementById("gallery").classList.remove("opacity");
    }
    if (currentScroll > 1500) {
@@ -13,15 +13,3 @@ window.addEventListener("scroll", function(){
    lastScrollTop = currentScroll;
    console.log(window.pageYOffset);
 }, false);
-
-var vid = document.getElementById("video");
-if (vid.currentTime = 5) {
-  vid.currentTime = 0;
-  vid.play();
-}
-/*
-video.pause();
-video.currentTime = 0;
-video.load();
-*/
-console.log(vid.currentTime);
