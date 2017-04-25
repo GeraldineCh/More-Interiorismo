@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets\css\main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
   <title>More Interiorismo</title>
 </head>
 <body>
@@ -43,24 +45,27 @@
     <section id="contact" class="form-container">
       <div class="container-fluid">
         <h2>Contact</h2>
-        <form id = "formula" class="form-signup" onsubmit="return false">
+        <form class="form-signup" novalidate>
+          <h2 id="form-signup-heading">
+            Bicis Locas
+          </h2>
           <div class="name-container input-box">
-            <label for="name" class="data-only">Nombre:</label>
-            <input type="text" class="input-registro" id="nombre" name="nombre" pattern="[A-Za-z]{3,100}" autofocus="autofocus" required placeholder="Ingrese su nombre"></input></br>
-            <span></span></br></br>
+            <label for="name" class="sr-only">Names</label>
+            <input type="text" id="name" class="form-control" placeholder="Ingrese su nombre"  autofocus="">
+                <span></span>
           </div>
           <div class="email-container input-box">
-            <label for="name" class="data-only">Correo:</label>
-            <input type="text" class="input-registro" id="email" name="correo" pattern="[A-Za-z]{3,100}" autofocus="autofocus" required placeholder="Ingrese su correo"></input></br>
-            <span></span></br></br>
+            <label for="inputEmail" class="sr-only">Email</label>
+            <input type="email" id="input-email" class="form-control" placeholder="Ingrese su correo electrónico">
+                <span></span>
           </div>
-          <div class="form-group input-box">
-            <label for="name">Mensaje:</label>
-            <input type="text" class="input-registro" id="mensaje" name="mensaje" pattern="[A-Za-z]{3,100}" autofocus="autofocus" required placeholder="Deseo recibir información vía email"></input></br>
-            <span></span></br></br>
+          <div class="checkbox ">
+            <label>
+              <input type="checkbox" value="remember-me">
+              <span>Sign up for the newsletter!</span>
+            </label>
           </div>
-            <button class="btn" type="button" target="_blank" id ="registro">Submit</button></br>
-            <span></span>
+          <button class="btn btn-lg btn-primary btn-block submit-btn" type="submit" id="login">Submit</button>
         </form>
       </div>
     </section>
@@ -69,6 +74,6 @@
     <p>Coded by <a href="github.com/Mishmore/">Michelle More</a> and <a href="github.com/Nakarid/">Nakarid Jave</a></p>
     <p> &copy; Copyright</p>
   </footer>
-  <script src="assets\js\app.js" charset="utf-8"></script>
+  <script src="assets/js/app.js" charset="utf-8"></script>
 </body>
 </html>
