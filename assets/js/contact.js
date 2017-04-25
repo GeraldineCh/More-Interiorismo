@@ -6,6 +6,7 @@
             var letraAscii = elemento.keyCode;
             if((letraAscii >= 97 && letraAscii <= 122) || (letraAscii >= 65 && letraAscii <= 90) || letraAscii == 164){
                 return true;
+                this.nextElementSibling.setAttribute("style", "display:none");
             } else {
                 this.nextElementSibling.setAttribute("style", "display:block");
                 this.nextElementSibling.innerText="* Must be only letters.";
@@ -45,6 +46,7 @@
             this.nextElementSibling.innerText="* Obligatory field";
           } else{
             this.nextElementSibling.nextElementSibling.innerText="";
+            this.nextElementSibling.setAttribute("style", "display:none");
           }
           var datoCorrecto=this.value.charAt(0).toUpperCase()+this.value.substring(1).toLowerCase();
           this.value=datoCorrecto;
