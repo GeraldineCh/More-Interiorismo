@@ -33,8 +33,8 @@ header {
 
 .logo {
   position: fixed;
-  width: 150px;
-  height: 200px;
+  width: 130px;
+  height: 180px;
   top: 50px;
   left: 50px;
   transition: 0.3s;
@@ -52,15 +52,15 @@ header {
 
 .white::after {
   content: "";
-  width: 150px;
+  width: 130px;
   height: 20px;
   background-image: url("../img/logo/logo-all-white.svg");
-  background-position: -1px -158px;
+  background-position: -1px -135px;
   transition: none;
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  top: 160px;
+  top: 135px;
   left: 0;
   opacity: 0;
   transition: 0.2s;
@@ -72,15 +72,15 @@ header {
 
 .black::after {
   content: "";
-  width: 150px;
+  width: 130px;
   height: 20px;
   background-image: url("../img/logo/logo-all-black.svg");
-  background-position: -1px -158px;
+  background-position: -1px -135px;
   transition: none;
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  top: 160px;
+  top: 135px;
   left: 0;
   opacity: 0;
   transition: 0.2s;
