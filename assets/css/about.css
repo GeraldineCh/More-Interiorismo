@@ -13,7 +13,7 @@
 }
 .about-container:after {
   content: "";
-  background-color: #d6d6d6;
+  background-color: #fff;
   width: 100%;
   background-size: cover;
   background-position: center bottom;
@@ -31,14 +31,14 @@
   margin: 0 auto;
   display: table;
   position: relative;
-  width: 80%;
-  padding-top: 5%;
+  width: 70%;
+  padding-top: 10%;
 }
 #about-heading{
   text-align: center;
   margin: 0 auto;
   color: #333;
-  text-shadow: 1px 1px 1px #DEDEDE;
+  text-shadow: 1px 1px 1px #dedede;
   position: relative;
 }
 .about-photo{
@@ -46,10 +46,16 @@
 }
 .about-photo img{
   border-radius: 50%;
+  margin-top: 20px;
 }
 .about-text{
   display: inline-block;
   text-align: left;
   position: absolute;
-  padding-left: 50px;
+  right: 0;
+  width: 65%;
+  padding-top: 70px
+}
+.about-text p{
+  margin-top: 20px;
 }
