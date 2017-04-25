@@ -11,5 +11,4 @@ document.addEventListener("drop", function(ev){
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementById(data));
-  alert(data);
 }, false);

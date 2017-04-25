@@ -12,7 +12,6 @@ var images = [{src:"assets/img/renders/deco01.jpg"},
 var draggableDiv = document.getElementsByClassName("draggable-div");
 for (var i = 0; i < draggableDiv.length; i++) {
   var parent = draggableDiv[i];
-  console.log(parent);
   parent.setAttribute("src", images[i].src);
 }
 /*
