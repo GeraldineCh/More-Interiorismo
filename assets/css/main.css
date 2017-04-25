@@ -120,6 +120,17 @@ video {
 
 #gallery h2 {
   color: #fff;
+  padding: 12px;
+  background: linear-gradient(to left, white, white) no-repeat 0 0;
+  background-size: 0% 2px;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+
+#gallery h2:hover {
+  color: #43fcbf;
+  background: linear-gradient(to left, #43fcbf, #43fcbf) no-repeat 0 0;
+  background-size: 100% 2px;
 }
 
 #contact {
@@ -135,7 +146,7 @@ video {
 
 .draggable-div {
   margin-right: -4px;
-  width: 215px;
+  width: 300px;
   height: 215px;
   display: inline-block;
   overflow: hidden;
@@ -154,7 +165,7 @@ video {
 .drop-div {
   background-color: #fff;
   margin-right: -4px;
-  width: 215px;
+  width: 300px;
   height: 215px;
   display: inline-block;
   position: absolute;
