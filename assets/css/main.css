@@ -8,14 +8,16 @@
   transition: 1s;
 }
 
-.opacity {
-  opacity: 0;
-}
-
 #contact {
   background-color: black;
+  transition: 1s;
 }
 
 #gallery {
   background-color: blue;
+  transition: 1s;
+}
+
+.opacity {
+  opacity: 0;
 }
