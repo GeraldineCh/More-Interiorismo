@@ -2,10 +2,32 @@
   box-sizing: border-box;
   margin: 0;
 }
+header {
+  position: absolute;
+  top: 50px;
+  right: 70px;
+  z-index: 5;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 12px;
+  background: linear-gradient(to left, white, white) no-repeat 0 0;
+  background-size: 0% 2px;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+
+.nav-bar a:hover {
+  background-size: 100% 2px;
+}
 
 video {
   width: 100%;
   height: auto;
+  margin-bottom: -5px;
 }
 
 #about, #contact, #gallery {
