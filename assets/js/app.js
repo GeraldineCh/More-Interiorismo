@@ -50,5 +50,5 @@ boton.addEventListener("click",function(){
   var cliente = new newsletter(nombre, email, mensaje);
   //console.log(new newsletter(nombre, email, mensaje));
   localStorage.setItem("nuevoPaciente",JSON.stringify(new newsletter(nombre, email, mensaje)));
-  document.getElementById("forula").reset();
+  document.getElementById("formula").reset();
 });
