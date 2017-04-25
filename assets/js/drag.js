@@ -1,7 +1,7 @@
 var draggableDiv = document.getElementsByClassName("draggable-div");
-function removeAllClass(className) {
+function setAllClass(className, newClass) {
   for (var i = 0; i < draggableDiv.length; i++) {
-    className[i].classList.remove("active");
+    className[i].setAttribute("class", newClass);
   }
 }
 //Start to drag a picture
@@ -12,7 +12,6 @@ document.addEventListener("dragstart", function(ev){
 //Dragging and adding acive class to show picture
 document.addEventListener("drag", function(ev) {
   var data = ev.target.id;
-  console.log(data);
   var draggedDiv = document.getElementById(data);
   draggedDiv.setAttribute("class","active");
 });
@@ -26,6 +25,6 @@ document.addEventListener("drop", function(ev){
 }, false);
 //Drop picture into div
 var drop = document.getElementById("drop-div");
-drop.addEventListener("dragover", function(event) {
-  event.preventDefault();
+drop.addEventListener("dragover", function(ev) {
+  ev.preventDefault();
 }, false);

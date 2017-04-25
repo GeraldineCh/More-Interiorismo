@@ -26,21 +26,19 @@
 
 .active {
   margin-right: -4px;
-  width: 900px;
-  height: 500px;
-  display: inline-block;
-  overflow: hidden;
+  width: 666px;
+  height: auto;
   cursor: move;
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
-  
+  object-fit: cover;
+
   visibility: visible;
   opacity: 1;
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
+  position: absolute;
+  top:200px;
+  left:-400px;
   bottom:0;
   margin:0;
   z-index: 900;
@@ -179,6 +177,8 @@ video {
 
 .mosaico {
   position: absolute;
+  width: 800px;
+  height: 645px;
   right: 4px;
   top: 0;
 }
