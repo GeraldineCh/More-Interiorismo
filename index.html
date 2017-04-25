@@ -40,16 +40,35 @@
       <h2>Gallery</h2>
     </section>
     <!--Contact!-->
-    <section id="contact">
-      <h2>Contact</h2>
-      <form class="contact-form" onsubmit="return false">
-        <input type="text" name="email" placeholder="Ingresa aquí tu correo">
-        <button type="submit" name="button"></button>
-      </form>
+    <section id="contact" class="form-container">
+      <div class="container-fluid">
+        <h2>Contact</h2>
+        <form id = "formula" class="form-signup" onsubmit="return false">
+          <div class="name-container input-box">
+            <label for="name" class="data-only">Nombre:</label>
+            <input type="text" class="input-registro" id="nombre" name="nombre" pattern="[A-Za-z]{3,100}" autofocus="autofocus" required placeholder="Ingrese su nombre"></input></br>
+            <span></span></br></br>
+          </div>
+          <div class="email-container input-box">
+            <label for="name" class="data-only">Correo:</label>
+            <input type="text" class="input-registro" id="email" name="correo" pattern="[A-Za-z]{3,100}" autofocus="autofocus" required placeholder="Ingrese su correo"></input></br>
+            <span></span></br></br>
+          </div>
+          <div class="form-group input-box">
+            <label for="name">Mensaje:</label>
+            <input type="text" class="input-registro" id="mensaje" name="mensaje" pattern="[A-Za-z]{3,100}" autofocus="autofocus" required placeholder="Deseo recibir información vía email"></input></br>
+            <span></span></br></br>
+          </div>
+            <button class="btn" type="button" target="_blank" id ="registro">Submit</button></br>
+            <span></span>
+        </form>
+      </div>
     </section>
   </div>
-  <footer>Coded by <a href="github.com/Mishmore/">Michelle More</a> and <a href="github.com/Nakarid/">Nakarid Jave</a></footer>
-
+  <footer>
+    <p>Coded by <a href="github.com/Mishmore/">Michelle More</a> and <a href="github.com/Nakarid/">Nakarid Jave</a></p>
+    <p> &copy; Copyright</p>
+  </footer>
   <script src="assets\js\app.js" charset="utf-8"></script>
 </body>
 </html>
