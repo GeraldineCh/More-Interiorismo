@@ -6,7 +6,10 @@ var images = [{src:"assets/img/renders/deco01.jpg"},
               {src:"assets/img/renders/deco05.jpg"},
               {src:"assets/img/renders/deco06.jpg"},
               {src:"assets/img/renders/deco07.jpg"},
-              {src:"assets/img/renders/deco08.jpg"}
+              {src:"assets/img/renders/deco08.jpg"},
+              {src:"assets/img/renders/deco09.jpg"},
+              {src:"assets/img/renders/deco10.jpg"},
+              {src:"assets/img/renders/deco11.jpg"}
             ];
 
 var draggableDiv = document.getElementsByClassName("draggable-div");
