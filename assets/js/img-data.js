@@ -1,4 +1,3 @@
-
 var images = [{src:"assets/img/renders/deco01.jpg"},
               {src:"assets/img/renders/deco02.jpg"},
               {src:"assets/img/renders/deco14.jpg"},

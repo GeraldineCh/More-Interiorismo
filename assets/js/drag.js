@@ -1,21 +1,19 @@
 var draggableDiv = document.getElementsByClassName("draggable-div");
-function setAllClass(className, newClass) {
-  for (var i = 0; i < draggableDiv.length; i++) {
-    className[i].setAttribute("class", newClass);
-  }
-}
-//Start to drag a picture
+
+//Empezando a arrastrar imagen
 document.addEventListener("dragstart", function(ev){
     ev.dataTransfer.setData("text", ev.target.id);
     var data = ev.dataTransfer.getData("text");
 }, false);
-//Dragging and adding acive class to show picture
+
+//Arrastrando imagen y mostrandándola ampliada
 document.addEventListener("drag", function(ev) {
   var data = ev.target.id;
   var draggedDiv = document.getElementById(data);
   draggedDiv.setAttribute("class","active");
 });
-//Remove visibility of shown picure
+
+//Quitar visibilidad de imagen ampliada al soltar en lugar señalado
 var drop = document.getElementById("drop-div");
 drop.addEventListener("drop", function(ev){
   ev.preventDefault();
@@ -24,11 +22,13 @@ drop.addEventListener("drop", function(ev){
   var draggedDiv = document.getElementById(data);
   draggedDiv.setAttribute("class", "draggable-div");
 }, false);
-//Drop picture into div
+
+//Al acabar de arrastrar
 drop.addEventListener("dragover", function(ev) {
   ev.preventDefault();
 }, false);
 
+//Reiniciar vista
 document.getElementById("reset-gallery").addEventListener("click", function(e) {
   location.reload();
 })

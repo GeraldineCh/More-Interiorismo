@@ -22,7 +22,7 @@ function validandomail(elemento) {
         this.nextElementSibling.setAttribute("style", "display:none");
   } else {
     this.nextElementSibling.setAttribute("style", "display:block");
-    this.nextElementSibling.innerText="* Must write a validate email.";
+    this.nextElementSibling.innerText="* Must write a valid email.";
   }
 }
 email.onkeyup = validandomail;
