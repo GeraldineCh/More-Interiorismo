@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="assets\css\main.css">
   <link rel="stylesheet" href="assets/css/contact.css">
   <link rel="stylesheet" href="assets/css/about.css">
+  <link rel="stylesheet" href="assets\css\gallery.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
   <link rel="icon" href="assets\img\logo\favicon.ico">
@@ -94,21 +95,19 @@
     <section id="contact" class="form-container" class="opacity">
       <div class="container-fluid">
         <h2 id="form-signup-heading">Contact</h2>
-        <form class="form-signup" novalidate>
+        <form class="form-signup" id="formulario" novalidate onsubmit="return false">
           <div class="name-container input-box">
-            <!--<label for="name" class="sr-only">Names</label>-->
             <input type="text" id="name" class="form-control" placeholder="Name">
-                <span></span>
+            <span></span>
           </div>
           <div class="email-container input-box">
-            <!--<label for="inputEmail" class="sr-only">Email</label>-->
             <input type="email" id="input-email" class="form-control" placeholder="E-mail">
-                <span></span>
+            <span></span>
           </div>
           <br><br>
           <div class="checkbox ">
             <label>
-              <input type="checkbox" value="remember-me">
+              <input type="checkbox" value="remember-me" id="newletter">
               <span>Sign up for the newsletter!</span>
             </label>
           </div>
