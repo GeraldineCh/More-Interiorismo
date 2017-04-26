@@ -1,11 +1,14 @@
-#Proyecto X
+#Proyecto X.
+
+
 
 Se le llamó “Proyecto X” ya el proyecto no contaba con nombre propio dado a la variedad de posibilidades que se presentaría como tema libre y la cantidad de posibles propuestas. Las duplas y tríos fueron designados y se nos dio un tiempo de 48 horas para realizar y presentar el trabajo.
 
 En este caso, la dupla consistió en Nakarid Jave — quien escribe — y Michelle More, ambas egresadas de la carrera de Diseño Gráfico y actuales estudiantes de Web Developer en Laboratoria.
 
 
-##More Interiorismo
+##More Interiorismo.
+
 Es así como nuestro Proyecto X tuvo un nombre propio: después de discernir sobre posibles candidatos para el proyecto, decidimos tener como virtual cliente a Melissa More Flores, diseñadora de Interiores egresada de Sencico en Trujillo, que actualmente vive y labora en la ciudad de Lima.
 
 Con esta premisa, al tener un cliente real, realizamos la web como un portafolio para que sea mostrado al mundo. El cliente nos brindó los datos necesarios, así como las imágenes que necesitábamos, todas sacadas de sus propios trabajos y de esta manera la web sea 100% funcional al terminar el proyecto: para que sea usada para ella como un portafolio real en la web y para que nuestra dupla pueda mostrar el proyecto como parte de la feria informática en donde lo mostraríamos a Laboratoria.
@@ -15,7 +18,8 @@ El primer paso de la creación de un sitio Web es determinar qué crear y cual s
 ![alt text](assets/img/screenshot/demo/deco01.jpg "render")
 
 
-##Realización del Proyecto
+##Realización del Proyecto.
+
 Después de definir al cliente y tener claro qué se quería mostrar, con toda la data en nuestras manos para empezar fue cuando iniciamos.
 Primeramente se definió la maquetación de la web. Decidimos que sea una web tipo Scrolling (Parallax scrolling, en donde en una misma página html el usuario se desplaza hacia abajo para visualizar el contenido).
 
@@ -42,7 +46,8 @@ De esta manera, el scrolling o desplazamiento iría en tal orden. Para ese caso 
 ![alt text](assets/img/screenshot/demo/contacto.png "contacto")
 
 
-##Implementación
+##Implementación.
+
 Los requerimientos para este proyecto fue utilizar lo aprendido hasta el momento — 3er Sprint del BootCamp — y aplicar 2 eventos que vistos en clase, así como 2 nuevos eventos no vistos en clase. También se sugirió usar callbacks.
 
 Dado esos requerimientos, los implementamos en los archivos JavaScript y Css que creamos para cada sección. Utilizamos un total de 10 eventos.
@@ -63,6 +68,19 @@ Eventos Nuevos:
 
 Estos eventos son creados en Js e implementados en Css para darle dinamismo a la visualización.
 Todo se trabajó con branches, tratando de crear un código limpio y entendible para el equipo de trabajo.
+
+![alt text](assets/img/screenshot/js/contact1.jpg "js1")
+
+![alt text](assets/img/screenshot/js/contact2.jpg "js2")
+
+![alt text](assets/img/screenshot/js/drag1.jpg "js3")
+
+![alt text](assets/img/screenshot/js/img-data.jpg "js4")
+
+![alt text](assets/img/screenshot/js/scroll1.jpg "js5")
+
+![alt text](assets/img/screenshot/js/scroll2.jpg "js6")
+
 
 Finalmente les invitamos a visitar este proyecto en GitHub:
 
