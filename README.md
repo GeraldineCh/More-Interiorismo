@@ -12,14 +12,14 @@ Con esta premisa, al tener un cliente real, realizamos la web como un portafolio
 
 El primer paso de la creación de un sitio Web es determinar qué crear y cual será su uso. La página tiene que ser de fácil navegación y rápida. No excederse con elementos visuales ya que preferimos que usuario interactúe en la página y encuentre lo que busca. De esta manera posibles clientes que buscan una Diseñadora de Interiores les encuentre atractivo lo que están viendo y se contacten con nuestro cliente, el dueño de este portafolio web.
 
-![alt text](assets/img/screenshots/demo/deco01.jpg "render")
+![alt text](assets/img/screenshot/demo/deco01.jpg "render")
 
 
 ##Realización del Proyecto
 Después de definir al cliente y tener claro qué se quería mostrar, con toda la data en nuestras manos para empezar fue cuando iniciamos.
 Primeramente se definió la maquetación de la web. Decidimos que sea una web tipo Scrolling (Parallax scrolling, en donde en una misma página html el usuario se desplaza hacia abajo para visualizar el contenido).
 
-![alt text](assets/img/screenshots/demo/scroll.jpg "scroll")
+![alt text](assets/img/screenshot/demo/scroll.jpg "scroll")
 
 Las áreas definidas como secciones son:
 - Inicio.
@@ -30,16 +30,16 @@ Las áreas definidas como secciones son:
 De esta manera, el scrolling o desplazamiento iría en tal orden. Para ese caso se resolvió la interactividad en cada área:
 
 1. En Inicio se presentaría la página con un video proporcionado por More Interiorismo donde se puede observar parte de su trabajo, así como mostrar dinamismo al entrar a la página.
-![alt text](assets/img/screenshots/demo/inicio.png "about")
+![alt text](assets/img/screenshot/demo/inicio.png "about")
 
 2. En About mostraríamos el disclosure de Melissa More Flores como More Interiorismo y parte de su hoja de vida.
-![alt text](assets/img/screenshots/demo/about.png "about")
+![alt text](assets/img/screenshot/demo/about.png "about")
 
 3. Gallery se muestra como un mosaico de imágenes que son parte del portafolio que se pueden visualizar arrastrándolas y de esta forma ampliándolas automáticamente.
-![alt text](assets/img/screenshots/demo/galeria.png "galeria")
+![alt text](assets/img/screenshot/demo/galeria.png "galeria")
 
 4. En Contact el usuario puede escribir su nombre y correo para recibir información o recibir un newletter. Además de las redes sociales de contacto.
-![alt text](assets/img/screenshots/demo/contacto.png "contacto")
+![alt text](assets/img/screenshot/demo/contacto.png "contacto")
 
 
 ##Implementación
