@@ -1,11 +1,11 @@
 
 var images = [{src:"assets/img/renders/deco01.jpg"},
               {src:"assets/img/renders/deco02.jpg"},
-              {src:"assets/img/renders/deco03.jpg"},
+              {src:"assets/img/renders/deco14.jpg"},
               {src:"assets/img/renders/deco04.jpg"},
               {src:"assets/img/renders/deco05.jpg"},
               {src:"assets/img/renders/deco06.jpg"},
-              {src:"assets/img/renders/deco07.jpg"},
+              {src:"assets/img/renders/deco15.jpg"},
               {src:"assets/img/renders/deco08.jpg"},
               {src:"assets/img/renders/deco09.jpg"},
               {src:"assets/img/renders/deco10.jpg"},
