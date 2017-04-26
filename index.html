@@ -23,7 +23,7 @@
   <div class="container">
     <!--Video!-->
     <section id="video-container">
-      <video id="video" autoplay loop>
+      <video id="video" autoplay muted loop>
         <source src="assets\video\PUNA1.mp4" type="video/mp4">
         <source src="eh5v.files/html5video/PUNA1.webm" type="video/webm" />
         <source src="eh5v.files/html5video/PUNA1.ogv" type="video/ogg" />
@@ -49,6 +49,7 @@
     <!--Gallery!-->
     <section id="gallery" class="opacity">
       <h2>Gallery</h2>
+      <span id="reset-gallery">Reiniciar</span>
       <div class="mosaico">
        <div class="parent-top">
           <img id="img1" class="draggable-div">
@@ -57,7 +58,7 @@
         </div>
         <div class="parent-middle">
           <div id="drop-div" class="drop-div">
-            <p>Arrastra la imagen aquí para visualizar</p>
+            <p>Arrastra la imagen aquí para ver/ocultar</p>
           </div>
           <img id="img4" class="draggable-div">
           <img id="img5" class="draggable-div">
@@ -73,13 +74,6 @@
          <img id="img11" class="draggable-div">
        </div>
       </div>
-
-      <div id="modal" class="hidden">
-      <div class="modal-content">
-        <span id="close" class="close">&times;</span>
-        <!--Images created in js!-->
-      </div>
-    </div>
     </section>
     <!--Contact!-->
     <section id="contact" class="opacity">

@@ -8,23 +8,32 @@ window.addEventListener("scroll", function(){
    if (currentScroll > 300) {
      document.getElementById("about").classList.remove("opacity");
    }
-   if (currentScroll > 1000){
-     document.getElementsByClassName("logo")[0].classList.remove("black");
-     document.getElementsByClassName("logo")[0].classList.add("white");
-   }
-   if ((currentScroll < 1000) &&  (currentScroll > 300)){
+   if ((currentScroll < 1000) && (currentScroll > 300)){
      document.getElementsByClassName("logo")[0].classList.remove("white");
      document.getElementsByClassName("logo")[0].classList.add("black");
+     document.getElementsByTagName("h2")[1].classList.remove("top-line");
+     document.getElementsByTagName("h2")[1].classList.add("top-line-hidden");
    }
    if (currentScroll > 900){
      document.getElementById("gallery").classList.remove("opacity");
    }
-   if (currentScroll > 1700) {
-     document.getElementsByClassName("logo")[0].classList.remove("white");
-     document.getElementsByClassName("logo")[0].classList.add("black");
+   if (currentScroll > 1000){
+     document.getElementsByClassName("logo")[0].classList.remove("black");
+     document.getElementsByClassName("logo")[0].classList.add("white");
+     document.getElementsByTagName("h2")[1].classList.add("top-line");
+     document.getElementsByTagName("h2")[1].classList.remove("top-line-hidden");
+
    }
    if (currentScroll > 1600) {
      document.getElementById("contact").classList.remove("opacity");
    }
+   if (currentScroll > 1700) {
+     document.getElementsByClassName("logo")[0].classList.remove("white");
+     document.getElementsByClassName("logo")[0].classList.add("black");
+     document.getElementsByTagName("h2")[1].classList.remove("top-line");
+     document.getElementsByTagName("h2")[1].classList.add("top-line-hidden");
+
+   }
    lastScrollTop = currentScroll;
+   console.log(currentScroll);
 }, false);

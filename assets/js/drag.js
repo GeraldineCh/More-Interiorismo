@@ -16,7 +16,8 @@ document.addEventListener("drag", function(ev) {
   draggedDiv.setAttribute("class","active");
 });
 //Remove visibility of shown picure
-document.addEventListener("drop", function(ev){
+var drop = document.getElementById("drop-div");
+drop.addEventListener("drop", function(ev){
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementById(data));
@@ -24,7 +25,10 @@ document.addEventListener("drop", function(ev){
   draggedDiv.setAttribute("class", "draggable-div");
 }, false);
 //Drop picture into div
-var drop = document.getElementById("drop-div");
 drop.addEventListener("dragover", function(ev) {
   ev.preventDefault();
 }, false);
+
+document.getElementById("reset-gallery").addEventListener("click", function(e) {
+  alert("sda");
+})

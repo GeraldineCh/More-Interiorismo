@@ -106,42 +106,45 @@ video {
   margin-bottom: -5px;
 }
 
-
-
 #about, #contact, #gallery {
   width: 100%;
   height: 645px;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 #about {
   background-color: #fff;
 }
 
+#contact {
+  background-color: #fff;
+}
+
+/*Galería*/
 #gallery {
   position: relative;
   background-color: #000;
   padding: 50px 250px;
 }
 
+/*Línea*/
 #gallery h2 {
-  color: #fff;
   padding: 12px;
-  background: linear-gradient(to left, white, white) no-repeat 0 0;
-  background-size: 0% 2px;
-  transition: 0.3s;
+  transition: 3s ease-in;
   margin-top: 1em;
 }
 
-#gallery h2:hover {
+.top-line-hidden {
+  color: #fff;
+  background: linear-gradient(to left, white, white) no-repeat 0 0;
+  background-size: 0% 2px;
+}
+
+.top-line {
   color: #43fcbf;
   background: linear-gradient(to left, #43fcbf, #43fcbf) no-repeat 0 0;
   background-size: 100% 2px;
   cursor: default;
-}
-
-#contact {
-  background-color: #fff;
 }
 
 .mosaico {
@@ -150,6 +153,11 @@ video {
   height: 645px;
   right: 4px;
   top: 0;
+}
+
+.parent-top, .parent-middle, .parent-middle-2, .bottom-parent {
+  width: 100%;
+  height: 160px;
 }
 
 .draggable-div {
@@ -178,7 +186,6 @@ video {
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
-  object-fit: cover;
   visibility: visible;
   opacity: 1;
   position: absolute;
@@ -200,20 +207,26 @@ video {
   right: 0;
   border: none;
   overflow: hidden;
+  z-index: 5;
 }
 
 .drop-div p {
+  width: 245px;
+  height: 160px;
   position: absolute;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
+  border: 1px #fff solid;
   display: inline;
   font-weight: bold;
-  top: 60px;
+  top: 0;
+  right: -1px;
+  z-index: 1;
+  padding: 59px 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
 }
 
-.parent-top, .parent-middle, .parent-middle-2, .bottom-parent {
-  width: 100%;
-  height: 160px;
+.drop-div [class="draggable-div"] {
+  opacity: 0;
 }
