@@ -147,8 +147,8 @@ video {
 }
 
 .top-line {
-  color: #43fcbf;
-  background: linear-gradient(to left, #43fcbf, #43fcbf) no-repeat 0 0;
+  color: #25f1ae;
+  background: linear-gradient(to left, #25f1ae, #25f1ae) no-repeat 0 0;
   background-size: 100% 2px;
   cursor: default;
 }
