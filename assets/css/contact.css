@@ -5,8 +5,7 @@
 
 .form-container {
   height: 100vh;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 50px 100px 50px 250px;
   display: block;
   position: relative;
   margin: 0  auto;
@@ -20,11 +19,11 @@
   margin: 0 auto;
   padding-top: 5%;
 }
-#form-signup-heading{
-  text-align: center;
-  margin: 0 auto;
-  color: #333;
-  text-shadow: 1px 1px 1px #DEDEDE;
+
+#contact h2 {
+  padding: 12px;
+  transition: 3s ease-in;
+  margin-top: 1em;
 }
 
 .form-signup {

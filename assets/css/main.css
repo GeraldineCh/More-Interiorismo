@@ -140,9 +140,22 @@ video {
   background-size: 0% 2px;
 }
 
+.top-line-hidden-black {
+  color: #000;
+  background: linear-gradient(to left, black, black) no-repeat 0 0;
+  background-size: 0% 2px;
+}
+
 .top-line {
   color: #43fcbf;
   background: linear-gradient(to left, #43fcbf, #43fcbf) no-repeat 0 0;
+  background-size: 100% 2px;
+  cursor: default;
+}
+
+.top-line-black {
+  color: #000;
+  background: linear-gradient(to left, #000, #000) no-repeat 0 0;
   background-size: 100% 2px;
   cursor: default;
 }
