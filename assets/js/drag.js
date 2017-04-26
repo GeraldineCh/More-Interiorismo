@@ -30,5 +30,5 @@ drop.addEventListener("dragover", function(ev) {
 }, false);
 
 document.getElementById("reset-gallery").addEventListener("click", function(e) {
-  alert("sda");
+  location.reload();
 })
