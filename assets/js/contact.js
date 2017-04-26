@@ -14,20 +14,22 @@ var soloLetras=function(elemento){
 }
 
 nombre.onkeypress=soloLetras;
-email.onkeypress=soloLetras;
+//email.onkeypress=soloLetras;
 
-/*   var correovalido = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-      if (correovalido.test(email)){
+var correovalido = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+function validandomail(elemento){
+  if (correovalido.test(email.value)){
         this.nextElementSibling.setAttribute("style", "display:none");
       } else {
         //return false;
         this.nextElementSibling.setAttribute("style", "display:block");
-        this.nextElementSibling.innerText="* Debe colocar un correo válido.";
+        this.nextElementSibling.innerText="* Must write a validate email.";
       }
+}
 
-      email.onkeypress=correovalido;
+email.onkeyup=validandomail;
+email.onblur=validandomail;
 
-*/
 var datos = document.getElementsByClassName("form-control");
 
 var validateForm = function(elemento){
@@ -43,9 +45,8 @@ var validateForm = function(elemento){
       this.value=datoCorrecto;
 }
 
-for (var i=0; i<datos.length; i++){
-      datos[i].onblur=validateForm;
-}
+nombre.onblur=validateForm;
+
 
 var boton = document.getElementById("login");
 
