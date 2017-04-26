@@ -4,9 +4,15 @@ window.addEventListener("scroll", function(){
    if (currentScroll < 540){
      document.getElementsByClassName("logo")[0].classList.remove("black");
      document.getElementsByClassName("logo")[0].classList.add("white");
+     document.getElementsByTagName("h2")[0].classList.remove("top-line");
+     document.getElementsByTagName("h2")[0].classList.add("top-line-hidden");
    }
    if (currentScroll > 300) {
      document.getElementById("about").classList.remove("opacity");
+   }
+   if (currentScroll > 500) {
+     document.getElementsByTagName("h2")[0].classList.add("top-line");
+     document.getElementsByTagName("h2")[0].classList.remove("top-line-hidden");
    }
    if ((currentScroll < 1000) && (currentScroll > 300)){
      document.getElementsByClassName("logo")[0].classList.remove("white");
@@ -22,7 +28,8 @@ window.addEventListener("scroll", function(){
      document.getElementsByClassName("logo")[0].classList.add("white");
      document.getElementsByTagName("h2")[1].classList.add("top-line");
      document.getElementsByTagName("h2")[1].classList.remove("top-line-hidden");
-
+     document.getElementsByTagName("h2")[0].classList.remove("top-line");
+     document.getElementsByTagName("h2")[0].classList.add("top-line-hidden");
    }
    if (currentScroll > 1600) {
      document.getElementById("contact").classList.remove("opacity");
