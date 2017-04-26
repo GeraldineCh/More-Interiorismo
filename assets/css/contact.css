@@ -8,11 +8,24 @@
   padding: 50px 100px 50px 250px;
   display: block;
   position: relative;
-  margin: 0  auto;
-  background-image: url("../img/cbackground.jpg");
+  margin: auto;
+}
+
+.form-container:after {
+  content: "";
+  background-image: url(../img/cbackground.jpg);
   width: 100%;
   background-size: cover;
   background-position: center bottom;
+  margin: 0;
+  position: absolute;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 0;
+  z-index: -100;
 }
 
 .container-fluid{
