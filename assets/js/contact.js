@@ -50,13 +50,4 @@ nombre.onblur=validateForm;
 
 var boton = document.getElementById("login");
 
-boton.addEventListener("click", function () {
-  var nombre = document.getElementById("name").value;
-  var email = document.getElementById("input-email").value;
-  var datos=[];
-  var usuario= new cliente(nombre,email);
-  console.console.log(new cliente(nombre, email));
-  localStorage.setItem("nuevoUsuario",JSON.stringify(new cliente(nombre,email)));
-  document.getElementById("formulario").reset();
-  //window.location.assign("");
-});
+document.getElementById("formulario").reset();
