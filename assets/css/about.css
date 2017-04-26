@@ -14,6 +14,7 @@
 .about-container:after {
   content: "";
   background-color: #fff;
+  background-image: url(../img/abackground.jpg);
   width: 100%;
   background-size: cover;
   background-position: center bottom;
