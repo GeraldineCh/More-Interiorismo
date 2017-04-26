@@ -44,5 +44,9 @@
 }
 .encajar{
   font-size: 200%;
+  color: #333;
+}
+.icon-pinterest:hover, .icon-linkedin:hover, .icon-instagram:hover, .icon-facebook:hover, .icon-keyboard_arrow_up:hover, .icon-keyboard_arrow_down:hover {
   color: #444;
+  opacity: 0.9;
 }

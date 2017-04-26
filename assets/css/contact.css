@@ -44,6 +44,7 @@
   padding: 15px;
   margin: 0 auto;
   display: table;
+  padding-top: 70px;
 }
 
 .form-signup .form-signup-heading,
@@ -128,6 +129,9 @@
   text-align: center;
   display: table;
   position: relative;
+}
+.redes-sociales a{
+  text-decoration:none;
 }
 
 .footer-class{
